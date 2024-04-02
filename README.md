@@ -1,3 +1,8 @@
+Author:Mohamed Sameer F
+mail:mohamedsameer.f154@gmail.com
+
+
+
 # Event Management System
 Welcome to the Event Management System! This aims to provide comprehensive guidance on using the application effectively, from accessing the system to managing bookings.The working flow of the application
 
