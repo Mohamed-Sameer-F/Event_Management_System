@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{%block title%}
+Events
+{% endblock %}
+
+{%block content%}
+<div class="text-center" style="font-size: 29px;font-weight: 600;">Events</div>
+<div class="container">
+
+    {% for i in eve%}
+<div style="width: 32.5rem; display:inline-block;margin: 20px;background-color: aliceblue;border-radius: 10px;">
+    <div class="card-body">
+      <h5 class="card text-center" style="font-size: 24px;font-weight: 600;">{{i.title}}</h5>
+      <p class="card-text">&nbsp; Description: {{i.desc}}</p>
+      <p class="card-date">&nbsp; Date: {{i.date}}</p>
+      <p class="card-time">&nbsp;Time: {{i.time}}</p>
+      <p class="card-location">&nbsp;Location: {{i.location}}</p>
+      <p class="card-attendees">&nbsp; Max_Attendees: {{i.attendees}}</p>
+
+    </div>
+  </div>
+  {% endfor %}
+
+
+ 
+{% endblock %}
