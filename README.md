@@ -63,7 +63,7 @@ User perspective:
 
 ![alt text](pics/Screenshot_20240402_062245.png)
 
-![alt text](pics/Screenshot_20240402_062301.png)
+![alt text](pics/events.png)
 
 ![alt text](pics/Screenshot_20240402_062550.png)
 
